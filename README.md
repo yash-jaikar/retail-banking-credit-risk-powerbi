@@ -1,3 +1,6 @@
+<img width="1301" height="732" alt="Page1" src="https://github.com/user-attachments/assets/9c245cd1-8fff-4d8a-9110-770ec2b334a5" />
+
+
 📌 Retail Banking Loan Portfolio & Credit Risk Analysis (Power BI)
 🎯 Executive Summary & Business Problem
 Why does this matter?
@@ -5,6 +8,8 @@ Why does this matter?
 In retail banking, maintaining a balanced credit portfolio and mitigating default risk is far more cost-effective than managing bad debt recovery or acquiring replacement capital. A poorly calibrated underwriting strategy leads to either excessive credit risk or lost revenue from overly stringent rejections.
 
 This project analyzes an executive dataset of 50,031 loan applications to uncover key credit risk drivers, evaluate applicant financial health, and identify optimal underwriting parameters that balance portfolio growth with risk containment.
+
+<img width="1297" height="732" alt="Page3" src="https://github.com/user-attachments/assets/c80f16bf-6434-458f-adec-ef72aa33d3e8" />
 
 📊 Key Business Insights (The "So What?")
 Credit Score Risk Boundary: Applicants categorized in the Poor credit tier exhibit significantly lower approval rates, but intermediate tiers (Fair / Good) represent a high-potential segment currently constrained by rigid approval cutoffs.
@@ -25,6 +30,12 @@ Employment Metrics: Employment Status (Salaried, Self-Employed, Contractual), Te
 Credit & Debt Metrics: Credit Score, Debt-to-Income Ratio (DTI), Outstanding Debts, Prior Defaults.
 
 Financial Exposure: Loan Amount Requested, Term Duration, Interest Rates, Disbursed Capital, Approval Status (Approved vs. Rejected).
+
+<img width="1301" height="731" alt="Page4" src="https://github.com/user-attachments/assets/53bb9a07-a137-4383-8500-ddc229080c69" />
+<img width="1302" height="736" alt="Page5" src="https://github.com/user-attachments/assets/bbaff9a9-11fd-4a39-9e47-307c0ece70a4" />
+<img width="1302" height="731" alt="Page6" src="https://github.com/user-attachments/assets/53e9ff67-a5de-43ab-b56b-40a10682b634" />
+<img width="1302" height="730" alt="Page7" src="https://github.com/user-attachments/assets/0b9a61d5-5578-4c0e-adfd-3f0ab4d0ab32" />
+
 
 🏗️ Technical Architecture & DAX Implementation
 1. Custom DAX Categorizations (Calculated Columns)
@@ -84,6 +95,9 @@ Avg_DTI = AVERAGE('Bank dataset 2'[DTI])
 
 Total_Disbursed_Capital = CALCULATE(SUM('Bank dataset 2'[Loan_Amount]), 'Bank dataset 2'[Status] = "Approved")
 
+<img width="1301" height="732" alt="Page8" src="https://github.com/user-attachments/assets/13713c4d-41d2-4a29-9c18-f963849e9b05" />
+
+
 💡 Strategic Recommendations
 Dynamic Risk-Based Pricing: Shift away from binary approval/rejection for "Fair" credit tiers by introducing tiered interest rate margins to capture loan volume safely.
 
@@ -99,3 +113,5 @@ Business Intelligence Tool: Power BI Desktop
 Data Transformation & Modeling: Power Query (ETL), DAX (Data Analysis Expressions)
 
 UI & Theme: Executive color palette featuring Hex #666666 accents, clean KPI cards, and cross-filterable visual layouts.
+
+<img width="1302" height="731" alt="Page2" src="https://github.com/user-attachments/assets/2f2b7d2c-892c-4891-b1d3-130bc4a88415" />
